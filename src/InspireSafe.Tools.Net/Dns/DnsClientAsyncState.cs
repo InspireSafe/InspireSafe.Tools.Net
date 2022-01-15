@@ -16,15 +16,10 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Sockets;
-using System.Text;
-using System.Threading;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns
 {
 	internal class DnsClientAsyncState<TMessage> : IAsyncResult
 		where TMessage : DnsMessageBase

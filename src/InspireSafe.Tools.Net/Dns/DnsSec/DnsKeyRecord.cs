@@ -16,10 +16,7 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using InspireSafe.Tools.Net.Dns.DnsRecord;
 using Org.BouncyCastle.Asn1.CryptoPro;
 using Org.BouncyCastle.Asn1.Nist;
 using Org.BouncyCastle.Asn1.Sec;
@@ -35,7 +32,7 @@ using Org.BouncyCastle.Math.EC;
 using Org.BouncyCastle.Pkcs;
 using Org.BouncyCastle.Security;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns.DnsSec
 {
 	/// <summary>
 	///   <para>DNS Key record</para>

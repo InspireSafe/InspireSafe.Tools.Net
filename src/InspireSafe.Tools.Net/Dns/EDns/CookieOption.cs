@@ -16,9 +16,7 @@
 // limitations under the License.
 #endregion
 
-using System;
-
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns.EDns
 {
 	/// <summary>
 	///   <para>Cookie Option</para>

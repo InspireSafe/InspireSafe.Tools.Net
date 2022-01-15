@@ -16,12 +16,9 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using InspireSafe.Tools.Net.Dns.EDns;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns
 {
 	/// <summary>
 	///   Provides options to be used in <see cref="DnsClient">DNS client</see> for resolving queries

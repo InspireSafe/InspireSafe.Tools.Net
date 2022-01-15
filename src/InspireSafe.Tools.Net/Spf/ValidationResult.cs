@@ -16,7 +16,7 @@
 // limitations under the License.
 #endregion
 
-namespace ARSoft.Tools.Net.Spf
+namespace InspireSafe.Tools.Net.Spf
 {
 	/// <summary>
 	///   The result of a SPF or SenderID validation

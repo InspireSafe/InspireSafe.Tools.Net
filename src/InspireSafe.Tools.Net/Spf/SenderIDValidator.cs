@@ -16,15 +16,10 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using ARSoft.Tools.Net.Dns;
+using InspireSafe.Tools.Net.Dns;
+using InspireSafe.Tools.Net.Dns.DnsRecord;
 
-namespace ARSoft.Tools.Net.Spf
+namespace InspireSafe.Tools.Net.Spf
 {
 	/// <summary>
 	///   Validator for SenderID records

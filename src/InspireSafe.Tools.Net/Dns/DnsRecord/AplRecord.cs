@@ -16,14 +16,10 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Text;
 using System.Text.RegularExpressions;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns.DnsRecord
 {
 	/// <summary>
 	///   <para>Address prefixes record</para>

@@ -16,19 +16,16 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading;
-using System.Threading.Tasks;
-using ARSoft.Tools.Net.Dns;
+using InspireSafe.Tools.Net.Dns;
+using InspireSafe.Tools.Net.Dns.DnsRecord;
+using InspireSafe.Tools.Net.Dns.Resolver;
 
-namespace ARSoft.Tools.Net.Spf
+namespace InspireSafe.Tools.Net.Spf
 {
 	/// <summary>
 	///   Base implementation of a validator for SPF and SenderID records

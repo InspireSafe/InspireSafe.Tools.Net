@@ -16,20 +16,13 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using ARSoft.Tools.Net.Dns.DynamicUpdate;
+using InspireSafe.Tools.Net.Dns.DynamicUpdate;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns
 {
 	/// <summary>
 	///   Provides a client for querying dns records

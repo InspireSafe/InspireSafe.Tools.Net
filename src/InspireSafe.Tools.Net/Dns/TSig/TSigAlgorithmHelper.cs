@@ -16,13 +16,9 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
-using System.Text;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns.TSig
 {
 	// ReSharper disable once InconsistentNaming
 	internal class TSigAlgorithmHelper

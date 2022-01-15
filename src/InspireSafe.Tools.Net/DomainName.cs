@@ -16,18 +16,15 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using ARSoft.Tools.Net.Dns;
+using InspireSafe.Tools.Net.Dns;
+using InspireSafe.Tools.Net.Dns.DnsSec;
 using Org.BouncyCastle.Crypto;
 using Org.BouncyCastle.Crypto.Digests;
 
-namespace ARSoft.Tools.Net
+namespace InspireSafe.Tools.Net
 {
 	/// <summary>
 	///   Represents a domain name

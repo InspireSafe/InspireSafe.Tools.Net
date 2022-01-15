@@ -16,13 +16,10 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace ARSoft.Tools.Net.Spf
+namespace InspireSafe.Tools.Net.Spf
 {
 	/// <summary>
 	///   <para>Parsed instance of the textual representation of a SenderID record</para>

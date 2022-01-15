@@ -18,7 +18,7 @@
 
 using System.Net;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns
 {
 	internal class DnsClientEndpointInfo
 	{

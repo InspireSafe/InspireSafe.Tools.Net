@@ -16,11 +16,7 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace ARSoft.Tools.Net
+namespace InspireSafe.Tools.Net
 {
 	internal static class AsyncEventHandlerExtensions
 	{

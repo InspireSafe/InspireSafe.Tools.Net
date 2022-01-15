@@ -5,11 +5,12 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <Authors>Alexander Reinert, Dmitriy Scherbakov</Authors>
-        <PackageVersion>3.0.0</PackageVersion>
+        <PackageVersion>3.0.1</PackageVersion>
         <Copyright>Alexander Reinert 2010..2017, Dmitriy Scherbakov 2021</Copyright>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageProjectUrl>https://github.com/InspireSafe/InspireSafe.Tools.Net</PackageProjectUrl>
         <Description>Adoptation ARSoft.Tools.Net for .net 6.0 </Description>
+        <Title>InspireSafe.Tools.Net</Title>
     </PropertyGroup>
 
     <ItemGroup>

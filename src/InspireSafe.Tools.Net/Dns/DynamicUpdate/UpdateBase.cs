@@ -16,12 +16,9 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using InspireSafe.Tools.Net.Dns.DnsRecord;
 
-namespace ARSoft.Tools.Net.Dns.DynamicUpdate
+namespace InspireSafe.Tools.Net.Dns.DynamicUpdate
 {
 	/// <summary>
 	///   Base update action of dynamic dns update

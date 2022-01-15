@@ -16,17 +16,15 @@
 // limitations under the License.
 #endregion
 
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using InspireSafe.Tools.Net.Dns.DnsRecord;
+using InspireSafe.Tools.Net.Dns.DnsSec;
 using Org.BouncyCastle.Crypto.Prng;
 using Org.BouncyCastle.Security;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns
 {
 	/// <summary>
 	///   Class representing a DNS zone

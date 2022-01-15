@@ -16,12 +16,9 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using InspireSafe.Tools.Net.Dns.TSig;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns.DnsRecord
 {
 	/// <summary>
 	///   <para>Transaction key</para>

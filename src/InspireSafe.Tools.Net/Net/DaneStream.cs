@@ -16,20 +16,16 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net;
 using System.Net.Security;
 using System.Net.Sockets;
 using System.Security.Authentication;
 using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-using ARSoft.Tools.Net.Dns;
+using InspireSafe.Tools.Net.Dns;
+using InspireSafe.Tools.Net.Dns.DnsRecord;
+using InspireSafe.Tools.Net.Dns.Resolver;
 
-namespace ARSoft.Tools.Net.Net
+namespace InspireSafe.Tools.Net.Net
 {
 	/// <summary>
 	///   Provides a stream used for client-server communication that uses SSL/TLS and DANE/TLSA validation to authenticate

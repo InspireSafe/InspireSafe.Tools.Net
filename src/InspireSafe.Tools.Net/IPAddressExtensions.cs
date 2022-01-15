@@ -16,15 +16,12 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text;
 
-namespace ARSoft.Tools.Net
+namespace InspireSafe.Tools.Net
 {
 	/// <summary>
 	///   Extension class for the <see cref="IPAddress" /> class

@@ -16,13 +16,10 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
+using InspireSafe.Tools.Net.Dns.DnsRecord;
+using InspireSafe.Tools.Net.Dns.Resolver;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns.DnsSec
 {
 	internal class DnsSecValidator<TState>
 	{

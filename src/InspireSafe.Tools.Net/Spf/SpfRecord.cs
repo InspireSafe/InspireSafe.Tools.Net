@@ -16,12 +16,9 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
-namespace ARSoft.Tools.Net.Spf
+namespace InspireSafe.Tools.Net.Spf
 {
 	/// <summary>
 	///   <para>Parsed instance of the textual representation of a SPF record</para>

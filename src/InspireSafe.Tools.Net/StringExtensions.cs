@@ -16,11 +16,10 @@
 // limitations under the License.
 #endregion
 
-using System;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace ARSoft.Tools.Net
+namespace InspireSafe.Tools.Net
 {
 	internal static class StringExtensions
 	{

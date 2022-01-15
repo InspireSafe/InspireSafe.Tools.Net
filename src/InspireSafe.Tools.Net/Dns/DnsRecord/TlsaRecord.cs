@@ -16,16 +16,12 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.X509;
 using X509Certificate = System.Security.Cryptography.X509Certificates.X509Certificate;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns.DnsRecord
 {
 	/// <summary>
 	///   <para>TLSA</para>

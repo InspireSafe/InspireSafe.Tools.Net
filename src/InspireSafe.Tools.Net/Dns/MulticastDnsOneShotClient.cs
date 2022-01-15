@@ -16,15 +16,10 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
-using System.Threading;
-using System.Threading.Tasks;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns
 {
 	/// <summary>
 	///   Provides a one/shot client for querying Multicast DNS as defined in

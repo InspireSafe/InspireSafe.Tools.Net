@@ -16,9 +16,9 @@
 // limitations under the License.
 #endregion
 
-using System.Collections.Generic;
+using InspireSafe.Tools.Net.Dns.DnsRecord;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns.Resolver
 {
 	/// <summary>
 	///   The response of a secure DNS resolver

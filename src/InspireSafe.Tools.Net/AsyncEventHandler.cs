@@ -16,10 +16,7 @@
 // limitations under the License.
 #endregion
 
-using System;
-using System.Threading.Tasks;
-
-namespace ARSoft.Tools.Net
+namespace InspireSafe.Tools.Net
 {
 	public delegate Task AsyncEventHandler<T>(object sender, T eventArgs) where T : EventArgs;
 }

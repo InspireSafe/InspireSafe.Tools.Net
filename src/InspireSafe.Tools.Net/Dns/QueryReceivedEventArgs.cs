@@ -16,11 +16,10 @@
 // limitations under the License.
 #endregion
 
-using System;
 using System.Net;
 using System.Net.Sockets;
 
-namespace ARSoft.Tools.Net.Dns
+namespace InspireSafe.Tools.Net.Dns
 {
 	/// <summary>
 	///   Event arguments of <see cref="DnsServer.QueryReceived" /> event.

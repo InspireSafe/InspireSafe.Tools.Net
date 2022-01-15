@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <Authors>Alexander Reinert, Dmitriy Scherbakov</Authors>
+        <PackageVersion>3.0.0</PackageVersion>
+        <Copyright>Alexander Reinert 2010..2017, Dmitriy Scherbakov 2021</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BouncyCastle" Version="1.8.9" />
+    </ItemGroup>
+
+</Project>

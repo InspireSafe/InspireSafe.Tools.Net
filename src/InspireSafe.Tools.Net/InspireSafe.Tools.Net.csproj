@@ -9,6 +9,7 @@
         <Copyright>Alexander Reinert 2010..2017, Dmitriy Scherbakov 2021</Copyright>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageProjectUrl>https://github.com/InspireSafe/InspireSafe.Tools.Net</PackageProjectUrl>
+        <Description>Adoptation ARSoft.Tools.Net for .net 6.0 </Description>
     </PropertyGroup>
 
     <ItemGroup>

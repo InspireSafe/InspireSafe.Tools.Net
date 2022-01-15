@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspireSafe.Tools.Net", "InspireSafe.Tools.Net\InspireSafe.Tools.Net.csproj", "{F9457F36-F2E9-4D78-9AA4-86C7308FC823}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspireSafe.Tools.Net", "src\InspireSafe.Tools.Net\InspireSafe.Tools.Net.csproj", "{4AD4AE2A-EECF-45BD-BA2D-19E8346F901B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F9457F36-F2E9-4D78-9AA4-86C7308FC823}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9457F36-F2E9-4D78-9AA4-86C7308FC823}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F9457F36-F2E9-4D78-9AA4-86C7308FC823}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{F9457F36-F2E9-4D78-9AA4-86C7308FC823}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{4AD4AE2A-EECF-45BD-BA2D-19E8346F901B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD4AE2A-EECF-45BD-BA2D-19E8346F901B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD4AE2A-EECF-45BD-BA2D-19E8346F901B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD4AE2A-EECF-45BD-BA2D-19E8346F901B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

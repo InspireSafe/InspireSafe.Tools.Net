@@ -289,36 +289,36 @@ namespace ARSoft.Tools.Net.Dns
 
 		private byte[] QueryByUdp(DnsClientEndpointInfo endpointInfo, byte[] messageData, int messageLength, out IPAddress responderAddress)
 		{
-			using (var udpClient = new Socket(endpointInfo.LocalAddress.AddressFamily, SocketType.Dgram, ProtocolType.Udp))
+			using var udpClient = new Socket(endpointInfo.LocalAddress.AddressFamily, SocketType.Dgram, ProtocolType.Udp);
+			
+			try
 			{
-				try
-				{
-					udpClient.ReceiveTimeout = QueryTimeout;
+				udpClient.ReceiveTimeout = QueryTimeout;
 
-					PrepareAndBindUdpSocket(endpointInfo, udpClient);
+				// .net6 Socket constructor already prepare socket
+				// PrepareAndBindUdpSocket(endpointInfo, udpClient);
 
-					EndPoint serverEndpoint = new IPEndPoint(endpointInfo.ServerAddress, _port);
+				EndPoint serverEndpoint = new IPEndPoint(endpointInfo.ServerAddress, _port);
 
-					udpClient.SendTo(messageData, messageLength, SocketFlags.None, serverEndpoint);
+				udpClient.SendTo(messageData, messageLength, SocketFlags.None, serverEndpoint);
 
-					if (endpointInfo.IsMulticast)
-						serverEndpoint = new IPEndPoint(udpClient.AddressFamily == AddressFamily.InterNetwork ? IPAddress.Any : IPAddress.IPv6Any, _port);
+				if (endpointInfo.IsMulticast)
+					serverEndpoint = new IPEndPoint(udpClient.AddressFamily == AddressFamily.InterNetwork ? IPAddress.Any : IPAddress.IPv6Any, _port);
 
-					byte[] buffer = new byte[65535];
-					int length = udpClient.ReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref serverEndpoint);
+				byte[] buffer = new byte[65535];
+				int length = udpClient.ReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref serverEndpoint);
 
-					responderAddress = ((IPEndPoint) serverEndpoint).Address;
+				responderAddress = ((IPEndPoint) serverEndpoint).Address;
 
-					byte[] res = new byte[length];
-					Buffer.BlockCopy(buffer, 0, res, 0, length);
-					return res;
-				}
-				catch (Exception e)
-				{
-					Trace.TraceError("Error on dns query: " + e);
-					responderAddress = default(IPAddress);
-					return null;
-				}
+				byte[] res = new byte[length];
+				Buffer.BlockCopy(buffer, 0, res, 0, length);
+				return res;
+			}
+			catch (Exception e)
+			{
+				Trace.TraceError("Error on dns query: " + e);
+				responderAddress = default(IPAddress);
+				return null;
 			}
 		}
 
